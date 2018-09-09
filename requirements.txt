@@ -5,3 +5,6 @@ pandas==0.23.1
 scikit-learn==0.19.1
 scipy==1.1.0
 tensorflow==1.9.0
+apache-beam==2.6.0
+python-snappy==0.5.3
+tensorflow-transform==0.8.0
