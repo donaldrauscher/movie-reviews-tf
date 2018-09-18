@@ -6,3 +6,4 @@ exports/**
 aclImdb/**
 tft_output/**
 data/**
+glove/**
