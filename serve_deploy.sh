@@ -12,3 +12,5 @@ gsutil rsync -c -d -r exports/$MODEL_TIMESTAMP $DEPLOYMENT_SOURCE
 
 gcloud ml-engine versions create $MODEL_VERSION --model $MODEL_NAME --origin $DEPLOYMENT_SOURCE \
     --python-version 2.7 --runtime-version 1.10
+
+gcloud ml-engine versions set-default $MODEL_VERSION --model $MODEL_NAME
