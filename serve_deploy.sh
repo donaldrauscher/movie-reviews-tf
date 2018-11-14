@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MODEL_NAME=movie_reviews
-MODEL_VERSION=v4
+MODEL_VERSION=v5
 MODEL_TIMESTAMP=$(ls -t exports/ | head -1)
 
 DEPLOYMENT_SOURCE=gs://djr-data/movie-reviews
